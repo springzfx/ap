@@ -1,14 +1,12 @@
 # Maintainer: Fancy Zhang <springzfx@gmail.com>
 # pkgbase=ap
 pkgname=ap
-pkgver=0.1
+pkgver=1.0
 pkgrel=1
 pkgdesc="simple wireless ap support both ipv4 and ipv6 with nat"
 arch=('x86_64')
-url=""
-license=('')
-groups=('')
-makedepends=()
+url="https://github.com/springzfx/ap"
+license=('GPL')
 depends=('hostapd'  'dnsmasq')
 optdepends=('systemd: for service')
 
