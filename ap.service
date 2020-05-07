@@ -1,0 +1,11 @@
+[Unit]
+Description=wireless ap support both ipv4 and ipv6
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/ap
+
+[Install]
+WantedBy=multi-user.target
+ 
