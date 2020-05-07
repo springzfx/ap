@@ -9,7 +9,7 @@ url=""
 license=('')
 groups=('')
 makedepends=()
-depends=()
+depends=('hostapd'  'dnsmasq')
 optdepends=('systemd: for service')
 
 source_x86_64=(
