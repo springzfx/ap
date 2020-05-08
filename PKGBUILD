@@ -20,7 +20,7 @@ source_x86_64=(
 "iptables-del.sh"
 "ap.resume"
 )
-md5sums_x86_64=('71f6a118c1dd76d5db53924839307016'
+md5sums_x86_64=('a9c8310e97f068e0fda2bc344e193bf6'
                 '0c32f6a1247fbed359b49af3378864bf'
                 '8244fa16d1aa23ac7d5de8eadc0bfdf1'
                 'ec1aa2a300f5b389685a3c2ad2cb2044'

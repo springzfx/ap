@@ -19,8 +19,8 @@ ip link show $interface_ap &>/dev/null && { echo "$interface_ap alreay exist!"; 
 ## create virtual wireless interface
 iw dev $interface_wlan interface add $interface_ap type managed || { echo "$interface_wlan not supported"; stop; exit 1; }
 ## setting address
-ip addr add 10.42.0.1/24 dev $interface_ap
-ip -6 addr add fd50:219f:54b4:d0d0::1/64 dev $interface_ap
+ip addr add $addr dev $interface_ap
+ip -6 addr add $addr6 dev $interface_ap
 
 ## start hostapd
 sh /usr/share/ap/hostapd-template.sh > /etc/ap/hostapd.conf
