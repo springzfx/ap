@@ -1,0 +1,3 @@
+#!/bin/sh
+## for more, `man systemd-sleep`
+[ "$1" = "post" ] && systemctl try-restart ap.service
